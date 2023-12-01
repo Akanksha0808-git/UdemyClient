@@ -194,7 +194,6 @@ const Navbar = () => {
             Categories
             </NavLink>
           </li>
-          {/* <Searchbar/> */}
 
           {/* -------searchbar here-------- */}
           <li>
