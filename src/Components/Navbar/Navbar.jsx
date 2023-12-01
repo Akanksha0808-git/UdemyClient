@@ -201,7 +201,7 @@ const Navbar = () => {
       
           <div className='searchbar'>
     <form>
-    <button className='searchbtn'> <FontAwesomeIcon icon={faSearch}  /></button>
+    <button className='searchbtnn'> <FontAwesomeIcon icon={faSearch}  /></button>
       <input
           type="text"
           placeholder="Search for anything"
@@ -240,9 +240,9 @@ const Navbar = () => {
 
         <button className='btnlogin btn'>Login</button>
         <button className='btnsignup btn'>Signup</button>
-         <div className='global' >
+         {/* <div className='global' >
           <img src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-vector-globe-icon-png-image_3787753.jpg" alt="I" style={{height:"30px", width:"30px"}} />
-         </div>
+         </div> */}
         </div>
 
 
