@@ -1,0 +1,129 @@
+.signup-container {
+    /* background-color: yellow; */
+    margin: 40px auto;
+    max-width: 400px;
+    /* margin: auto; */
+    padding: 20px;
+    text-align: center;
+  }
+  .signup-container h2{
+    align-items: left;
+  }
+  .form-group {
+    /* background-color: yellowgreen; */
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .form-group input{
+    width: 90%;
+    height: 50px;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .checkbox-group {
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    /* flex-wrap: wrap; */
+  }
+  .checkbox-group input{
+    height: 20px;
+    width: 40px;
+    border-radius: none;
+  }
+  .checkbox{
+    background-color: black;
+  }
+  
+  .button {
+    width: 90%;
+    height: 45px;
+    background-color: #7814a3;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #7814a3;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+
+  .login-container {
+    max-width: 400px;
+    margin: 40px auto;
+
+    /* margin: auto; */
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  .login-container input{
+    width: 100%;
+  } 
+  .social-login {
+    /* background-color: #7814a3; */
+    /* height: 40px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .social-button {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .social-button span {
+    margin-left: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    width: 100%;
+    font-weight: 600;
+    font-size:16px;
+    background-color: #a137ce;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #7814a3;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #7814a3;
+    font-weight:600;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
