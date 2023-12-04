@@ -267,7 +267,7 @@ const Navbar = () => {
               email ? (<Avatar className="avtar " style={{ background: "skyblue" }}>{email.split("")[0].toUpperCase()}</Avatar>) : (<Avatar className="avtar " />)
             }
           </div>
-{/* <Link to="/login"> <button className='btnlogin btn' >Login</button></Link> */}
+
 <div className="Sign_In">
         {token ? (
 
