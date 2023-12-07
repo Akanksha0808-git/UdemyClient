@@ -1,7 +1,6 @@
 import React , { useState, useEffect }from 'react'
 import { NavLink ,Link,useNavigate} from 'react-router-dom'
 import { useSelector } from "react-redux";
-import SearchResults from './SearchResults';
 import '@fortawesome/fontawesome-free/css/all.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
