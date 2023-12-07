@@ -350,7 +350,7 @@ const Navbar = () => {
           <div className='dropshowhover'>
           <div className="avtar">
             {
-              email ? (<Avatar className="avtar " style={{ background: "skyblue" }}>{email.split("")[0].toUpperCase()}</Avatar>) : (<Avatar className="avtar " />)
+              email ? (<Avatar className="avtar " style={{ background: "black" }}>{email.split("")[0].toUpperCase()}</Avatar>) : (<Avatar className="avtar " />)
             }
           </div>
             
@@ -361,7 +361,7 @@ const Navbar = () => {
 
                 <div className="avtar">
             {
-              email ? (<Avatar className="avtar " style={{ background: "skyblue" }}>{email.split("")[0].toUpperCase()}</Avatar>) : (<Avatar className="avtar " />)
+              email ? (<Avatar className="avtar " style={{ background: "black" }}>{email.split("")[0].toUpperCase()}</Avatar>) : (<Avatar className="avtar " />)
             }
           </div>
           <p>{email}</p>
